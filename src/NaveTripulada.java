@@ -1,5 +1,11 @@
 import lombok.Data;
 
+/**
+ * @author Juan Pablo Ayala
+ * Subclase de la clase principal.
+ * Se definen atributos de la subclase, metodos de clase y se implementan metodos de la clase padre.
+ */
+
 @Data
 public class NaveTripulada extends NaveEspacial {
     private String capacidadPasajeros;

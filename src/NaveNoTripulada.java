@@ -1,5 +1,11 @@
 import lombok.Data;
 
+/**
+ * @author Juan Pablo Ayala
+ * Subclase de la clase principal.
+ * Se definen atributos de la subclase, metodos de clase y se implementan metodos de la clase padre.
+ */
+
 @Data
 public class NaveNoTripulada extends NaveEspacial {
     private String tipoCelda;
@@ -26,8 +32,4 @@ public class NaveNoTripulada extends NaveEspacial {
         System.out.println("La nave acaba de aterrizar");
 
     }
-
-
-
-
 }

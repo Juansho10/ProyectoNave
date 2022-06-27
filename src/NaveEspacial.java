@@ -1,5 +1,10 @@
 import lombok.Data;
 
+/**
+ * @author Juan Pablo Ayala
+ * Clase abstracta principal
+ * Se definen atributos generales y metodos abstractos
+ */
 @Data
 abstract public class NaveEspacial {
 
@@ -9,14 +14,9 @@ abstract public class NaveEspacial {
     private String uso;
 
     abstract public void despegar();
+
     abstract public void orbitar();
+
     abstract public void aterrizar();
-
-
-
-
-
-
-
 
 }

@@ -1,4 +1,11 @@
-public class Herencia {
+/**
+ * @author Juan Pablo Ayala
+ * Clase main
+ * Se instancian objetos de la subclases, seteando sus atributos. 
+ */
+
+
+public class Main {
     public static void main(String[] args) {
         NaveLanzadera naveLanzadera = new NaveLanzadera();
         naveLanzadera.setNombre("Saturno v");
